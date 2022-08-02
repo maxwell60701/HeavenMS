@@ -26,7 +26,7 @@
 var isPq = true;
 var isGrindMode = false;     // stages done after breaking all boxes on maps
 
-var minPlayers = 3, maxPlayers = 6;
+var minPlayers = 1, maxPlayers = 6;
 var minLevel = 55, maxLevel = 100;
 var entryMap = 925100000;
 var exitMap = 925100700;

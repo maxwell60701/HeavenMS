@@ -27,7 +27,7 @@ importPackage(Packages.server.life);
 importPackage(Packages.client.inventory);
 
 var isPq = true;
-var minPlayers = 6, maxPlayers = 30;
+var minPlayers = 1, maxPlayers = 30;
 var minLevel = 120, maxLevel = 255;
 var entryMap = 270050100;
 var exitMap = 270050300;
