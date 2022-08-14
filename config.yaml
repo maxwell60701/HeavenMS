@@ -7,11 +7,11 @@ worlds:
     server_message: Welcome to Scania!
     event_message: Scania!
     why_am_i_recommended: Welcome to Scania!
-    channels: 3
-    exp_rate: 200
-    meso_rate: 200
-    drop_rate: 10
-    boss_drop_rate: 10                      #NOTE: Boss drop rate OVERRIDES common drop rate, for bosses-only.
+    channels: 13
+    exp_rate: 500
+    meso_rate: 500
+    drop_rate: 500
+    boss_drop_rate: 500                      #NOTE: Boss drop rate OVERRIDES common drop rate, for bosses-only.
     quest_rate: 5                           #Multiplier for Exp & Meso gains when completing a quest. Only available when USE_QUEST_RATE is true. Stacks with server Exp & Meso rates.
     fishing_rate: 10                        #Multiplier for success likelihood on meso thrown during fishing.
     travel_rate: 10                         #Means of transportation rides/departs using 1/N of the default time.
@@ -311,7 +311,7 @@ server:
     MAX_AP: 32767                               #Max AP allotted on the auto-assigner.
     MAX_EVENT_LEVELS: 8                         #Event has different levels of rewarding system.
     BLOCK_NPC_RACE_CONDT: 500   # (0.5 * 1000) Time the player client must wait before reopening a conversation with an NPC.
-    TOT_MOB_QUEST_REQUIREMENT: 0               #Overwrites old 999-mobs requirement for the ToT questline with new requirement value, set 0 for default.
+    TOT_MOB_QUEST_REQUIREMENT: 15               #Overwrites old 999-mobs requirement for the ToT questline with new requirement value, set 0 for default.
     MOB_REACTOR_REFRESH_TIME: 0         # (30 * 1000) Overwrites refresh time for those reactors oriented to inflict damage to bosses (Ice Queen, Riche), set 0 for default.
     PARTY_SEARCH_REENTRY_LIMIT: 10              #Max amount of times a party leader is allowed to persist on the Party Search before entry expiration (thus needing to manually restart the Party Search to be able to search for members).
     NAME_CHANGE_COOLDOWN: 2592000000      # (30*24*60*60*1000) Cooldown for name changes, default (GMS) is 30 days.
@@ -431,7 +431,7 @@ server:
     EVENT_LOBBY_DELAY: 10              #Cooldown duration in seconds before reopening an event lobby.
 
     #Dojo Configuration
-    USE_FAST_DOJO_UPGRADE: false     #Reduced Dojo training points amount required for a belt upgrade.
+    USE_FAST_DOJO_UPGRADE: true     #Reduced Dojo training points amount required for a belt upgrade.
     USE_DEADLY_DOJO: true          #Should bosses really use 1HP,1MP attacks in dojo?
     DOJO_ENERGY_ATK: 100                #Dojo energy gain when deal attack
     DOJO_ENERGY_DMG: 20                #Dojo energy gain when recv attack
