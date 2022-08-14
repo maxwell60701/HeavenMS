@@ -40,6 +40,7 @@ import constants.skills.NightWalker;
 import constants.skills.Priest;
 import constants.skills.Shadower;
 import constants.skills.WhiteKnight;
+import constants.skills.Bowmaster;
 import java.awt.Point;
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -1391,11 +1392,11 @@ public class MapleMonster extends AbstractLoadedMapleLife {
                     debuffMobStat(ms);
                 }
             } else {    // is a crash skill
-                int i = (skillid == Crusader.ARMOR_CRASH ? 1 : (skillid == WhiteKnight.MAGIC_CRASH ? 2 : 0));
+                int i = ((skillid == Crusader.ARMOR_CRASH || skillid==Bowmaster.ARMOR_CRASH )? 1 : (skillid == WhiteKnight.MAGIC_CRASH ? 2 : 0));
                 debuffMobStat(statups[i]);
 
                 if(YamlConfig.config.server.USE_ANTI_IMMUNITY_CRASH) {
-                    if (skillid == Crusader.ARMOR_CRASH) {
+                    if (skillid == Crusader.ARMOR_CRASH ||skillid==Bowmaster.ARMOR_CRASH) {
                         if(!isBuffed(MonsterStatus.WEAPON_REFLECT)) {
                             debuffMobStat(MonsterStatus.WEAPON_IMMUNITY);
                         }

@@ -752,6 +752,7 @@ public class MapleStatEffect {
                 case Crusader.ARMOR_CRASH:
                 case DragonKnight.POWER_CRASH:
                 case WhiteKnight.MAGIC_CRASH:
+                case Bowmaster.ARMOR_CRASH:
                     monsterStatus.put(MonsterStatus.SEAL_SKILL, Integer.valueOf(1));
                     break;
                 case Rogue.DISORDER:
@@ -1541,6 +1542,7 @@ public class MapleStatEffect {
             case BlazeWizard.SEAL:
             case NightWalker.SHADOW_WEB:
             case Crusader.ARMOR_CRASH:
+            case Bowmaster.ARMOR_CRASH:
             case DragonKnight.POWER_CRASH:
             case WhiteKnight.MAGIC_CRASH:
             case Priest.DISPEL:
@@ -1703,7 +1705,7 @@ public class MapleStatEffect {
     }
 
     private boolean isCrash() {
-        return skill && (sourceid == DragonKnight.POWER_CRASH || sourceid == Crusader.ARMOR_CRASH || sourceid == WhiteKnight.MAGIC_CRASH);
+        return skill && (sourceid == DragonKnight.POWER_CRASH || sourceid == Crusader.ARMOR_CRASH || sourceid == WhiteKnight.MAGIC_CRASH||sourceid == Bowmaster.ARMOR_CRASH);
     }
     
     private boolean isSeal() {

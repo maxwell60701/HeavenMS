@@ -107,6 +107,10 @@ public class SkillFactory {
                         for (MapleData data2 : data) { // Loop thru each jobs
                             if (data2 != null) {
                                 skillid = Integer.parseInt(data2.getName());
+                                if(skillid==3121010)
+                                {
+                                    System.out.println("skillid="+skillid);
+                                }
                                 skills.put(skillid, loadFromData(skillid, data2));
                             }
                         }
@@ -265,6 +269,7 @@ public class SkillFactory {
                 case Bowmaster.HEROS_WILL:
                 case Bowmaster.MAPLE_WARRIOR:
                 case Bowmaster.SHARP_EYES:
+                case Bowmaster.ARMOR_CRASH:
                 case Crossbowman.CROSSBOW_BOOSTER:
                 case Crossbowman.SOUL_ARROW:
                 case Sniper.PUPPET:

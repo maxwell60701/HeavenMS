@@ -1084,6 +1084,7 @@ public class MapleCharacter extends AbstractMapleCharacterObject {
             skills[0] = Bowmaster.BOW_EXPERT;
             skills[1] = Bowmaster.HAMSTRING;
             skills[2] = Bowmaster.SHARP_EYES;
+            skills[3]=Bowmaster.ARMOR_CRASH;
         } else if (jobId == 322) {
             skills[0] = Marksman.MARKSMAN_BOOST;
             skills[1] = Marksman.BLIND;
@@ -7416,6 +7417,10 @@ public class MapleCharacter extends AbstractMapleCharacterObject {
                     Skill pSkill = SkillFactory.getSkill(rs.getInt("skillid"));
                     if(pSkill != null)  // edit reported by Shavit (=＾● ⋏ ●＾=), thanks Zein for noticing an NPE here
                     {
+                        if(pSkill.getId()==3121010)
+                        {
+                            System.out.println("pSkill.id="+pSkill.getId());
+                        }
                         ret.skills.put(pSkill, new SkillEntry(rs.getByte("skilllevel"), rs.getInt("masterlevel"), rs.getLong("expiration")));
                     }
                 }

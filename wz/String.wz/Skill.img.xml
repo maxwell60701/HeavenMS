@@ -6904,7 +6904,7 @@
     <string name="h27" value="MP - 37 , Weapon Attack increases by 24, Mana spend -47%, for 240secs"/>
     <string name="h28" value="MP - 38 , Weapon Attack increases by 25, Mana spend -48%, for 240secs"/>
     <string name="h29" value="MP - 39 , Weapon Attack increases by 25, Mana spend -49%, for 240secs"/>
-    <string name="h30" value="MP - 40 , Weapon Attack increases by 26, Mana spend -50%, for 240secs"/>
+    <string name="h30" value="MP - 40 , Weapon Attack increases by 26, Mana spend -50%  for 240secs"/>
   </imgdir>
   <imgdir name="3121009">
     <string name="name" value="Hero&apos;s Will"/>
@@ -6914,6 +6914,30 @@
     <string name="h3" value="MP - 30 escape from abnormal condition, Terms between skills 480secs"/>
     <string name="h4" value="MP - 30 escape from abnormal condition, Terms between skills 420secs"/>
     <string name="h5" value="MP - 30 escape from abnormal condition, Terms between skills 360secs"/>
+  </imgdir>
+  <imgdir name="3121010">
+    <string name="name" value="Armor Crash"/>
+    <string name="desc" value="[Master Level : 20]\n Nullifies the defense buff used by the monster with a given success rate.\nRequired Skill : #cAt least Level 3 on Shout#"/>
+    <string name="h1" value="Use 35 MP, 24 % Cancel out Enemy&apos;s Physical Defense-Up"/>
+    <string name="h2" value="Use 33 MP, 28 % Cancel out Enemy&apos;s Physical Defense-Up"/>
+    <string name="h3" value="Use 31 MP, 32 % Cancel out Enemy&apos;s Physical Defense-Up"/>
+    <string name="h4" value="Use 29 MP, 36 % Cancel out Enemy&apos;s Physical Defense-Up"/>
+    <string name="h5" value="Use 27 MP, 40 % Cancel out Enemy&apos;s Physical Defense-Up"/>
+    <string name="h6" value="Use 25 MP, 44 % Cancel out Enemy&apos;s Physical Defense-Up"/>
+    <string name="h7" value="Use 23 MP, 48 % Cancel out Enemy&apos;s Physical Defense-Up"/>
+    <string name="h8" value="Use 21 MP, 52 % Cancel out Enemy&apos;s Physical Defense-Up"/>
+    <string name="h9" value="Use 19 MP, 56 % Cancel out Enemy&apos;s Physical Defense-Up"/>
+    <string name="h10" value="Use 17 MP, 60 % Cancel out Enemy&apos;s Physical Defense-Up"/>
+    <string name="h11" value="Use 16 MP, 64 % Cancel out Enemy&apos;s Physical Defense-Up"/>
+    <string name="h12" value="Use 15 MP, 68 % Cancel out Enemy&apos;s Physical Defense-Up"/>
+    <string name="h13" value="Use 14 MP, 72 % Cancel out Enemy&apos;s Physical Defense-Up"/>
+    <string name="h14" value="Use 13 MP, 76 % Cancel out Enemy&apos;s Physical Defense-Up"/>
+    <string name="h15" value="Use 12 MP, 80 % Cancel out Enemy&apos;s Physical Defense-Up"/>
+    <string name="h16" value="Use 11 MP, 84 % Cancel out Enemy&apos;s Physical Defense-Up"/>
+    <string name="h17" value="Use 10 MP, 88 % Cancel out Enemy&apos;s Physical Defense-Up"/>
+    <string name="h18" value="Use 9 MP, 92 % Cancel out Enemy&apos;s Physical Defense-Up"/>
+    <string name="h19" value="Use 8 MP, 96 % Cancel out Enemy&apos;s Physical Defense-Up"/>
+    <string name="h20" value="Use 7 MP, 100 % Cancel out Enemy&apos;s Physical Defense-Up"/>
   </imgdir>
   <imgdir name="322">
     <string name="bookName" value="Marksman"/>
